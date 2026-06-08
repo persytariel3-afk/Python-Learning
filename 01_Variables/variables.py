@@ -1,4 +1,4 @@
-nom = "Shogo"
+nom = "Persy"
 age = 20
 
 print("Nom :", nom)
