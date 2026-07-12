@@ -1,225 +1,232 @@
 '''
 =========================================================
-EXERCICES - CHAPITRE 2 : VARIABLES ET OPÉRATIONS EN PYTHON
+EXERCISES - CHAPTER 2: VARIABLES AND OPERATIONS IN PYTHON
 =========================================================
 
-Exercice 1 : Les nombres de Friedman
+Exercise 1: Friedman Numbers
 
-Les nombres de Friedman sont des nombres qui peuvent être exprimés
-en utilisant tous leurs chiffres dans une expression mathématique.
+Friedman numbers are numbers that can be expressed
+using all of their digits in a mathematical expression.
 
-Exemple :
+Example:
 347 = 4 + 7**3
 
-Consigne :
+Instructions:
 
-Déterminez si les expressions suivantes correspondent
-à des nombres de Friedman.
+Determine whether the following expressions correspond
+to Friedman numbers.
 
-Pour cela :
+To do this:
 
-1. Écrivez chaque expression en Python.
-2. Exécutez-la.
-3. Vérifiez si le résultat correspond au nombre formé
-   par les chiffres utilisés.
+1. Write each expression in Python.
+2. Execute it.
+3. Check whether the result is equal to the number
+   formed by the digits used.
 '''
 
-print("========== Exercice 1 ==========\n")
+print("========== Exercise 1 ==========\n")
 
-print("Question 1 : 7 + 3**6")
+print("Question 1: 7 + 3**6")
 
-# Je pense que Python va d'abord calculer 3**6
-# puis ajouter 7 au résultat.
+# I think Python will first calculate 3**6,
+# then add 7 to the result.
 
-print("Résultat :", 7 + 3**6)
-
-print("\n---------------------------------\n")
-
-print("Question 2 : (3 + 4)**3")
-
-# Je pense que Python va calculer l'addition
-# entre 3 et 4 avant d'élever le résultat
-# à la puissance 3.
-
-print("Résultat :", (3 + 4)**3)
+print("Result:", 7 + 3**6)
 
 print("\n---------------------------------\n")
 
-print("Question 3 : 3**6 - 5")
+print("Question 2: (3 + 4)**3")
 
-# Python calcule d'abord 3**6
-# puis soustrait 5.
+# I think Python will first calculate
+# the addition of 3 and 4,
+# then raise the result to the power of 3.
 
-print("Résultat :", 3**6 - 5)
-
-print("\n---------------------------------\n")
-
-print("Question 4 : (1 + 2**8) * 5")
-
-# Python calcule d'abord 2**8.
-# Ensuite il additionne 1.
-# Enfin il multiplie le résultat par 5.
-
-print("Résultat :", (1 + 2**8) * 5)
+print("Result:", (3 + 4)**3)
 
 print("\n---------------------------------\n")
 
-print("Question 5 : (2 + 1**8)**7")
+print("Question 3: 3**6 - 5")
 
-# Python calcule d'abord 1**8.
-# Ensuite il additionne 2.
-# Enfin il élève le résultat à la puissance 7.
+# Python first calculates 3**6,
+# then subtracts 5.
 
-print("Résultat :", (2 + 1**8)**7)
+print("Result:", 3**6 - 5)
+
+print("\n---------------------------------\n")
+
+print("Question 4: (1 + 2**8) * 5")
+
+# Python first calculates 2**8.
+# Then it adds 1.
+# Finally, it multiplies the result by 5.
+
+print("Result:", (1 + 2**8) * 5)
+
+print("\n---------------------------------\n")
+
+print("Question 5: (2 + 1**8)**7")
+
+# Python first calculates 1**8.
+# Then it adds 2.
+# Finally, it raises the result
+# to the power of 7.
+
+print("Result:", (2 + 1**8)**7)
 
 print("\n\n")
 
 '''
 =========================================================
-Exercice 2 : Prédire le résultat des opérations
+Exercise 2: Predict the Result of Operations
 =========================================================
 
-Consigne :
+Instructions:
 
-Essayez de prédire le résultat de chaque instruction
-avant de l'exécuter dans Python.
+Try to predict the result of each instruction
+before running it in Python.
 
-Ensuite, comparez votre réponse avec le résultat obtenu.
+Then compare your prediction
+with the actual result.
 '''
 
-print("========== Exercice 2 ==========\n")
+print("========== Exercise 2 ==========\n")
 
-print("Question 1 : (1 + 2) ** 3")
+print("Question 1: (1 + 2) ** 3")
 
-# Python effectue d'abord l'addition.
-# Ensuite il élève le résultat à la puissance 3.
+# Python first performs the addition.
+# Then it raises the result
+# to the power of 3.
 
-print("Résultat :", (1 + 2) ** 3)
-
-print("\n---------------------------------\n")
-
-print('Question 2 : "Da" * 4')
-
-# Python répète la chaîne "Da"
-# quatre fois.
-
-print("Résultat :", "Da" * 4)
+print("Result:", (1 + 2) ** 3)
 
 print("\n---------------------------------\n")
 
-print('Question 3 : "Da" + 3')
+print('Question 2: "Da" * 4')
 
-# Je pense qu'il y aura une erreur.
-# En Python, on ne peut pas additionner
-# une chaîne de caractères (str)
-# avec un entier (int).
+# Python repeats the string
+# "Da" four times.
+
+print("Result:", "Da" * 4)
+
+print("\n---------------------------------\n")
+
+print('Question 3: "Da" + 3')
+
+# I think an error will occur.
+# In Python, you cannot add
+# a string (str)
+# and an integer (int).
 
 # print("Da" + 3)
 
-print("Résultat attendu : TypeError")
+print("Expected Result: TypeError")
 
 print("\n---------------------------------\n")
 
-print('Question 4 : ("Pa" + "La") * 2')
+print('Question 4: ("Pa" + "La") * 2')
 
-# Python concatène d'abord les deux chaînes.
-# Ensuite il répète le résultat deux fois.
+# Python first concatenates
+# the two strings.
+# Then it repeats the result twice.
 
-print("Résultat :", ("Pa" + "La") * 2)
+print("Result:", ("Pa" + "La") * 2)
 
 print("\n---------------------------------\n")
 
-print('Question 5 : ("Da" * 4) / 2')
+print('Question 5: ("Da" * 4) / 2')
 
-# Je pense qu'il y aura une erreur.
-# La division n'est pas autorisée
-# sur une chaîne de caractères.
+# I think an error will occur.
+# Division is not allowed
+# on a string.
 
 # print(("Da" * 4) / 2)
 
-print("Résultat attendu : TypeError")
+print("Expected Result: TypeError")
 
 print("\n---------------------------------\n")
 
-print("Question 6 : 5 / 2")
+print("Question 6: 5 / 2")
 
-# La division classique retourne
-# toujours un nombre décimal.
+# Standard division
+# always returns a floating-point number.
 
-print("Résultat :", 5 / 2)
-
-print("\n---------------------------------\n")
-
-print("Question 7 : 5 // 2")
-
-# La division entière retourne
-# uniquement la partie entière.
-
-print("Résultat :", 5 // 2)
+print("Result:", 5 / 2)
 
 print("\n---------------------------------\n")
 
-print("Question 8 : 5 % 2")
+print("Question 7: 5 // 2")
 
-# L'opérateur modulo retourne
-# le reste de la division.
+# Floor division returns
+# only the integer part.
 
-print("Résultat :", 5 % 2)
+print("Result:", 5 // 2)
+
+print("\n---------------------------------\n")
+
+print("Question 8: 5 % 2")
+
+# The modulo operator returns
+# the remainder of the division.
+
+print("Result:", 5 % 2)
 
 print("\n\n")
 
 '''
 =========================================================
-Exercice 3 : Opérations et conversions de types
+Exercise 3: Operations and Type Conversions
 =========================================================
 
-Consigne :
+Instructions:
 
-Prédisez le résultat de chaque instruction
-avant son exécution.
+Predict the result of each instruction
+before running it.
 
-Ensuite, vérifiez votre réponse.
+Then verify your answer
+by executing the code.
 '''
 
-print("========== Exercice 3 ==========\n")
+print("========== Exercise 3 ==========\n")
 
-print('Question 1 : str(4) * int("3")')
+print('Question 1: str(4) * int("3")')
 
-# int("3") donne 3.
-# str(4) donne "4".
-# Python répète donc la chaîne "4"
-# trois fois.
+# int("3") becomes 3.
+# str(4) becomes "4".
+# Python repeats the string "4"
+# three times.
 
-print("Résultat :", str(4) * int("3"))
-
-print("\n---------------------------------\n")
-
-print('Question 2 : int("3") + float("3.2")')
-
-# int("3") devient 3.
-# float("3.2") devient 3.2.
-# Python effectue ensuite l'addition.
-
-print("Résultat :", int("3") + float("3.2"))
+print("Result:", str(4) * int("3"))
 
 print("\n---------------------------------\n")
 
-print('Question 3 : str(3) * float("3.2")')
+print('Question 2: int("3") + float("3.2")')
 
-# Je pense qu'il y aura une erreur.
-# Une chaîne ne peut pas être multipliée
-# par un nombre décimal (float).
+# int("3") becomes 3.
+# float("3.2") becomes 3.2.
+# Python then performs the addition.
+
+print("Result:", int("3") + float("3.2"))
+
+print("\n---------------------------------\n")
+
+print('Question 3: str(3) * float("3.2")')
+
+# I think an error will occur.
+# A string cannot be multiplied
+# by a floating-point number (float).
 
 # print(str(3) * float("3.2"))
 
-print("Résultat attendu : TypeError")
+print("Expected Result: TypeError")
 
 print("\n---------------------------------\n")
 
-print("Question 4 : str(3 / 4) * 2")
+print("Question 4: str(3 / 4) * 2")
 
-# Python calcule d'abord 3/4.
-# Il convertit ensuite le résultat en chaîne.
-# Enfin il répète cette chaîne deux fois.
+# Python first calculates 3 / 4.
+# Then it converts the result
+# into a string.
+# Finally, it repeats
+# the string twice.
 
-print("Résultat :", str(3 / 4) * 2)
+print("Result:", str(3 / 4) * 2)
