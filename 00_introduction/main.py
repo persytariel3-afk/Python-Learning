@@ -1,0 +1,6 @@
+
+#Origine et popularité : Créé en 1989 par Guido van Rossum, Python est aujourd'hui le langage de programmation le plus utilisé au monde. Il est particulièrement incontournable dans des domaines comme la bioinformatique, la chimie-informatique et l'analyse de données.
+#Langage interprété et de haut niveau : Contrairement à des langages comme le C ou le C++, un script Python n'a pas besoin d'être compilé pour être exécuté. De plus, il est de "haut niveau", ce qui signifie qu'il demande peu de connaissances sur le fonctionnement interne de l'ordinateur pour être utilisé.
+#Multiplateforme et gratuit : Python fonctionne sur une très grande variété de systèmes d'exploitation (Windows, Mac OS X, Linux, Android, iOS) et il est totalement gratuit, ce qui permet de l'installer sur autant de machines que l'on souhaite.
+#Orienté objet : Le langage permet de concevoir des entités qui miment celles du monde réel (par exemple, une molécule d'ADN, une protéine ou un atome) en leur attribuant des règles de fonctionnement et d'interactions spécifiques.
+#Simplicité d'apprentissage : Le livre souligne que Python est relativement simple à prendre en main, ce qui explique pourquoi il est désormais enseigné dans de nombreuses formations, allant du lycée jusqu'à l'enseignement supérieur.
