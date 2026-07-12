@@ -1,5 +1,163 @@
 '''
 =========================================================
+CHAPTER 2 : VARIABLES AND OPERATIONS
+=========================================================
+
+What is a Variable?
+
+A variable is a named location in memory that is used
+to store data. The value stored in a variable can be
+changed during the execution of a program.
+
+Variables make programs easier to read, write,
+and maintain because they allow us to reuse data
+without writing the same value multiple times.
+
+General Syntax:
+
+variable_name = value
+
+Examples:
+
+name = "John"
+age = 20
+height = 1.75
+is_student = True
+
+In these examples:
+
+- "name" stores a string.
+- "age" stores an integer.
+- "height" stores a floating-point number.
+- "is_student" stores a Boolean value.
+
+---------------------------------------------------------
+
+Variable Naming Rules
+
+When creating variables in Python, follow these rules:
+
+1. A variable name must begin with a letter
+   or an underscore (_).
+
+2. A variable name cannot begin with a number.
+
+3. A variable name can contain letters,
+   numbers, and underscores.
+
+4. Variable names are case-sensitive.
+
+Example:
+
+age = 20
+Age = 25
+
+These are considered two different variables.
+
+5. Avoid using Python keywords as variable names.
+
+Incorrect Examples:
+
+2name = "John"
+class = "Python"
+
+---------------------------------------------------------
+
+What are Operations?
+
+Operations allow Python to manipulate data.
+They are performed using operators.
+
+The most common arithmetic operators are:
+
++   Addition
+
+-   Subtraction
+
+*   Multiplication
+
+/   Division
+
+//  Floor Division
+
+%   Modulus (Remainder)
+
+**  Exponentiation (Power)
+
+Examples:
+
+10 + 5      # Addition
+
+10 - 5      # Subtraction
+
+10 * 5      # Multiplication
+
+10 / 5      # Division
+
+10 // 3     # Floor Division
+
+10 % 3      # Modulus
+
+2 ** 4      # Exponentiation
+
+---------------------------------------------------------
+
+Order of Operations
+
+Python follows the mathematical order of operations.
+
+1. Parentheses ()
+2. Exponentiation **
+3. Multiplication *, Division /,
+   Floor Division //, Modulus %
+4. Addition + and Subtraction -
+
+Example:
+
+(2 + 3) * 4
+
+Python first calculates:
+
+2 + 3 = 5
+
+Then:
+
+5 * 4 = 20
+
+---------------------------------------------------------
+
+Why are Variables Important?
+
+Variables allow programmers to:
+
+• Store information.
+
+• Reuse values.
+
+• Perform calculations.
+
+• Create dynamic programs.
+
+• Make code easier to understand and maintain.
+
+---------------------------------------------------------
+
+Summary
+
+✔ Variables store data.
+
+✔ Variables can contain different data types.
+
+✔ Operations manipulate data using operators.
+
+✔ Python follows the order of operations
+   when evaluating expressions.
+
+The following exercises will help you practice
+variables and arithmetic operations in Python.
+'''
+'''
+=========================================================
 EXERCISES - CHAPTER 2: VARIABLES AND OPERATIONS IN PYTHON
 =========================================================
 
